@@ -5,3 +5,5 @@ class Dimension {
         this.value = value;
     }
 }
+
+exports.default = Dimension;

@@ -7,3 +7,5 @@ class MetricData {
         this.Value = value;
     }
 }
+
+exports.default = MetricData;

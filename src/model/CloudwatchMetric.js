@@ -4,3 +4,5 @@ class CloudwatchMetric {
         this.Namespace = namespace;
     }
 }
+
+exports.default = CloudwatchMetric;
