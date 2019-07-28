@@ -1,0 +1,11 @@
+{
+  "name": "availability-checker-function",
+  "version": "1.0.0",
+  "description": "Service that checks if a specific URL is responding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Vasconcelos",
+  "license": "ISC"
+}
