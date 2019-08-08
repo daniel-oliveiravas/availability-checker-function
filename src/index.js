@@ -11,7 +11,7 @@ const METRIC_UNIT = 'Count';
 const METRIC_VALUE = '';
 
 exports.handler = (event, context) => {
-    axios.get(SERVICE_URL)
+    await axios.get(SERVICE_URL)
         .then(response => {
             cloudwatchService.sendMetric(cloudwatchMetricService.buildCloudwatchServiceMonitoringMetric(
                 SUCESS_METRIC_NAME, METRIC_UNIT, METRIC_VALUE, SERVICE_NAME));
